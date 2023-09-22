@@ -1,7 +1,7 @@
 import React from "react";
 import "./Login.css";
 import { useState,useContext } from "react";
-import { FirebaseContext } from "../store/FirebaseContext";
+import { FirebaseContext } from "../store/Context";
 import { useNavigate } from "react-router-dom";
 function Login() {
     let navigate = useNavigate()

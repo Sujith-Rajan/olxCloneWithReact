@@ -5,8 +5,19 @@ import Login from "./component/Login";
 import ClickView from "./component/ClickView";
 import Create from "./component/Create";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { useEffect,useContext } from "react";
+import { AuthContext } from "./store/Context";
+import { FirebaseContext } from "./store/Context";
 
 function App() {
+    const {setuser} = useContext(AuthContext)
+    const {firebaseApp} =useContext(FirebaseContext)
+    useEffect(()=>{
+        // console.log(user) 
+        firebaseApp.auth().onAuthStateChanged((user)=>{
+            setuser(user) 
+        })
+        })
     return (
         <div className="App">
             <Router>
