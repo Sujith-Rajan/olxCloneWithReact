@@ -27,7 +27,7 @@ function Login() {
                 <input type="password" placeholder="Password" value={password} onChange={(e)=>setpassword(e.target.value)} />
             </div>
             <div className="submit-btn">
-                <button type="submit">Login</button>
+                <button type="submit" >Login</button>
             </div>
             </form>
         </div>

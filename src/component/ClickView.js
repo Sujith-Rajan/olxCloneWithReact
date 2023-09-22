@@ -9,6 +9,7 @@ function ClickView() {
                <div>
                 <p className='prdct-rate'>&#x20B9; 250000</p>
                 <p className='prdct-name'>Sofa Set</p>
+                <p className='prdct-catgory'>category</p>
                 <p className='prdct-desc'>It's not too long used</p>
                </div>
             </div>
