@@ -5,7 +5,7 @@ function ClickView() {
   return (
     <div className='clickView'>
           <div className="view-card">
-               <div className='prdct-image'><img src="" alt="" /></div>
+               <div className='prdct-image'><img src="" alt=""  /></div>
                <div>
                 <p className='prdct-rate'>&#x20B9; 250000</p>
                 <p className='prdct-name'>Sofa Set</p>
