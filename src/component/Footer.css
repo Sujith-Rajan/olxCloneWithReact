@@ -1,0 +1,29 @@
+.footer{
+    width:100%;
+  
+    background-color: #F7F8F9;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.about-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+}
+.about-contents h6{
+    margin:3px;
+    color: #002f3494;
+}
+.developer{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: #002F34;
+    color: white;
+}

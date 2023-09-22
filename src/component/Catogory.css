@@ -1,0 +1,9 @@
+.catogory{
+    display: flex;
+    
+    height: 120px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: end;
+    background-color: yellow;
+}

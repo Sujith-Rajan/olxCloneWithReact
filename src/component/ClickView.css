@@ -1,0 +1,16 @@
+.clickView{
+    background-color: rosybrown;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+.view-card{
+    margin-top: 20px;
+    width:400px;
+    height: 400px;
+    background-color: green;
+}
