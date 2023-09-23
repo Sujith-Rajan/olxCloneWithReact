@@ -5,7 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { FirebaseContext } from "./store/Context";
 import firebaseApp from "./firebase/Config";
-import { AuthContext } from "./store/Context";
+
 import Context from "./store/Context";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

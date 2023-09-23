@@ -1,4 +1,4 @@
-import React, { Component, Fragment, useContext, useState } from "react";
+import React, { Fragment, useContext, useState } from "react";
 import "./Create.css";
 import Navbar from "./Navbar";
 import { FirebaseContext } from "../store/Context";
@@ -24,7 +24,7 @@ const Create = () => {
         snapshot.ref.getDownloadURL().then((url)=>{
         // console.log('put')
         firebaseApp.firestore().collection('products').add({
-          id:user.uid,
+          item_id:user.uid,
           item_name:name,
           item_price:price,
           item_catogory:category,

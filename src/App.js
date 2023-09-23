@@ -9,6 +9,8 @@ import { useEffect,useContext } from "react";
 import { AuthContext } from "./store/Context";
 import { FirebaseContext } from "./store/Context";
 
+import View from "./store/PostContext";
+
 function App() {
     const {setuser} = useContext(AuthContext)
     const {firebaseApp} =useContext(FirebaseContext)
@@ -20,6 +22,7 @@ function App() {
         })
     return (
         <div className="App">
+            <View>
             <Router>
                 <Routes>
                     <Route path="/" element={<Home />} />
@@ -27,8 +30,10 @@ function App() {
                     <Route  path="/login" element={<Login />} />
                     <Route path="/product" element={<ClickView />} />
                     <Route path="/createItem" element={<Create />} />
+                  
                 </Routes>
             </Router>
+            </View>
         </div>
     );
 }

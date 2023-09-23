@@ -5,7 +5,7 @@ import Banner from "../component/Banner";
 import Post from "../component/Post";
 import Footer from "../component/Footer";
 
-function Home() {
+function Home(props) {
     return (
         <div>
             <Navbar />
